@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+#headingScribbler{
+  font-family: "Montez", cursive;
+  color: blue;
+  font-size: 24px;
+  margin: 0;
+}  
+#subheading{
+  font-family: "Ubuntu Mono", monospace;
+  margin: 0;
+}
+
+.btn-wrapper button {
+    background-color: blue;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+  }
