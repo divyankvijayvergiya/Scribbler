@@ -1,0 +1,21 @@
+.post-buttons {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.post-buttons button{
+    background-color: gold;
+    padding: 5px 15px;
+    margin: 5px;
+    border: none;
+}
+
