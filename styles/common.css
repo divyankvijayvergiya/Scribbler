@@ -29,3 +29,27 @@ body {
     margin: 5px;
     cursor: pointer;
   }
+
+
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #ffffff;
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%; /* Could be more or less, depending on screen size */
+    border-radius: 0;
+  }
+
+  #submitSignUpBtn{
+      background-color: green;
+  }
+  #submitSignInBtn{
+    background-color: green;
+  }
+  .modal-title{
+      color: grey;
+      font-size: 30px;
+      font-weight: 400;
+  }
