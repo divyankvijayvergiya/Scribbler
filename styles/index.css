@@ -11,7 +11,12 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-
+  body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 .post-buttons button{
     background-color: gold;
     padding: 5px 15px;
