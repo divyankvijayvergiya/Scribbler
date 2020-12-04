@@ -1,4 +1,6 @@
 var modal = document.getElementById("signUpModal");
+var signInModal = document.getElementById("signInModal");
+
 
 // function openModal(){
 //     modal.style.display = "block";
@@ -12,5 +14,8 @@ var modal = document.getElementById("signUpModal");
 window.onclick = function(event) {
     if (event.target == modal) {
       modal.style.display = "none";
+    }
+    if(event.target ==  signInModal){
+        signInModal.style.display = "none";
     }
   }

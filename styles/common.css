@@ -53,3 +53,13 @@ body {
       font-size: 30px;
       font-weight: 400;
   }
+  .not-member {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .not-member span {
+    color: blue;
+    cursor: pointer;
+  }

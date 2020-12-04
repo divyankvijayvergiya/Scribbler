@@ -19,3 +19,26 @@
     border: none;
 }
 
+#createPostButton{
+    background-color: green;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    right:50%;
+}
+
+#createPostModal .modal-content {
+    width: 85%;
+    margin: 3% auto;
+  }
+  #createPostModal .modal-content .contents {
+    min-height: 300px;
+  }
+  #createPostModal .modal-content .create-btn-div {
+    text-align: center;
+  }
+  #createPostModal .modal-content .create-btn-div .btn {
+    padding: 5px 25px;
+    border-radius: 0;
+  }
