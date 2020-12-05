@@ -56,3 +56,17 @@
     float: right;
     cursor: pointer;
   }
+
+  #deletePostModal .modal-content {
+    width: 24%;
+    margin: 15% auto;
+  }
+  #deletePostModal .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  #deletePostModal .button-wrapper button {
+    padding: 5px 20px;
+    border-radius: 0;
+  }
