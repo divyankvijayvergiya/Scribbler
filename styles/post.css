@@ -11,11 +11,13 @@
 
 #author {
     font-size: 18px;
+    margin: 10px;
 }
 
 .btn-common,
 .btn-common:hover,
 .btn-common:focus {
+  margin: 10px;
   border-radius: 0;
   background-color: red;
   border: none;
@@ -32,22 +34,27 @@
 
   .post-content {
     margin-bottom: 20px;
+    margin: 10px;
   }
   #likeText {
+    margin: 10px;
     margin-top: 5px;
     margin-bottom: 20px;
   }
   #commentBox {
-    width: 100%;
+    margin-left:10px ;
+    width: 98.5%;
     min-height: 100px;
   }
   .comment-button {
     margin-bottom: 20px;
   }
   .all-comments-text {
+    margin: 10px;
     font-weight: bold;
   }
   #commentsWrapper {
+    margin: 10px;
     background-color: lightgray;
     padding: 20px 5px;
   }
